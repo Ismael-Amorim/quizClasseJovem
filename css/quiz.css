@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(88, 30, 30);
+    background: -moz-linear-gradient(180deg, rgba(88, 30, 30, 1) 30%, rgba(198, 14, 14, 1) 70%);
+    background: -webkit-linear-gradient(180deg, rgba(88, 30, 30, 1) 30%, rgba(198, 14, 14, 1) 70%);
+    background: linear-gradient(180deg, rgba(88, 30, 30, 1) 30%, rgba(198, 14, 14, 1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#581e1e", endColorstr="#c60e0e", GradientType=1);
+    color: #fff !important;
+    text-align: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%vh !important;
+
+}
+
+.boas-vindas {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.questoes {
+    margin-left: 1rem;
+    text-align: left !important;
+}
+
+.salvar {
+    text-align: center !important;
+}
+
+.btn {
+    background-color: #fff !important;
+}
+
+
+.resposta {
+    display: none;
+}
+
+table td {
+    color: #fff !important;
+}

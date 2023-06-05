@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(88, 30, 30);
+    background: -moz-linear-gradient(180deg, rgba(88, 30, 30, 1) 30%, rgba(198, 14, 14, 1) 70%);
+    background: -webkit-linear-gradient(180deg, rgba(88, 30, 30, 1) 30%, rgba(198, 14, 14, 1) 70%);
+    background: linear-gradient(180deg, rgba(88, 30, 30, 1) 30%, rgba(198, 14, 14, 1) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#581e1e", endColorstr="#c60e0e", GradientType=1);
+    color: #fff !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+}
+
+
+.header img {
+    width: 5rem;
+}
+
+.header {
+    background-color: #f0f0f0f0;
+    padding: 0.5rem;
+}
+
+.header a {
+    margin-left: 0.5rem;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#menu {
+    text-align: center !important;
+    display: block !important;
+}
+
+.cadastro,
+.pedido {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.login {
+    margin-top: 4rem;
+    text-align: center !important;
+}
+
+.opcoes {
+    margin: 1.2rem 0 1.2rem 0;
+    padding: 0.2rem;
+}
+
+.opcoes input {
+    width: 12rem;
+    text-align: center !important;
+    border-radius: 1.5rem;
+    border-style: outset;
+    border-color: #e07171;
+}
+
+
+.opcoes label {
+    width: 3rem;
+}
+
+.msgAlertErroLogin {
+    color: #fff !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center !important;
+    margin-top: 1.3rem;
+    height: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.4em 0.5em rgba(0, 0, 0, 0.1);
+    width: 25rem;
+    display: inline-block;
+    background-color: #ff7979;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.busca {
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+
+.alerta {
+    text-align: center !important;
+    height: 20rem !important;
+}
+
+.boas-vindas-home {
+    text-align: center;
+}
+
+.login img {
+    mix-blend-mode: multiply;
+}
